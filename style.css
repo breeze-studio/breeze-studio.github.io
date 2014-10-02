@@ -1,0 +1,425 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: url("img/drops.jpg") top center;
+	background-attachment: fixed;
+	color: black;
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 12pt;
+	overflow-y: scroll;
+}
+
+a, a:link, a:visited, a:hover, a:active
+{
+	color: #000066;
+}
+
+.main
+{
+	margin: 0 auto;
+	width: 960px;
+}
+
+header
+{
+	height: 143px;
+	position: absolute;
+	top: 0;
+	border-bottom: 4px solid #048fd4;
+}
+
+header.fixed
+{
+	position: fixed;
+	top: -85px;
+	background: url("img/drops.jpg") no-repeat scroll left -20px top 85px rgba(0, 0, 0, 0);
+}
+
+.over
+{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0.75) url("img/wave.png") right top no-repeat;
+}
+
+.fixed .over
+{
+	background-image: none;
+}
+
+.logo
+{
+	height: 100%;
+	width: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("img/logo.png") no-repeat 20px 35px;
+	z-index: 3;
+}
+
+.fixed .logo
+{
+	background: rgba(255, 255, 255, 0.75) url("img/logoMini.png") no-repeat 20px 92px;
+}
+
+nav
+{
+	height: 143px;
+	width: 760px;
+	display: inline-block;
+	padding-left: 200px;
+	vertical-align: top;
+	font-size: 13pt;
+	position: relative;
+	z-index: 2;
+}
+
+nav a, nav span
+{
+	padding-top: 100px;
+	display: inline-block;
+	width: 104px;
+	height: 30px;
+	text-align: center;
+}
+
+nav span
+{
+	background: #44BCE6;
+	border-bottom: solid 6px #ABDDF8;
+	color: white;
+}
+
+.imageFace
+{
+	height: 143px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 185px;
+	height: 143px;
+	background: /*#CFEAF6*/ url("img/imageFace.png") no-repeat;
+}
+
+.fixed .imageFace
+{
+	display: none;
+}
+
+.imageMain
+{
+	width: 960px;
+	height: 649px;
+	background: /*#CFEAF6*/ url("img/imageMain.png") no-repeat;
+}
+
+.content
+{
+	background: #cfeaf6 url("img/wave.png") right top -147px no-repeat;
+	margin-top: 147px;
+	min-height: 600px;
+}
+
+.portrait
+{
+	float: left;
+	width: 180px;
+	margin: 50px 0 0 20px;
+}
+
+.imageTanya
+{
+	width: 180px;
+	height: 270px;
+	background: url("img/staff/tanya.jpg") no-repeat;
+}
+
+.sign
+{
+	font-style: italic;
+	margin-top: 10px;
+}
+
+.name
+{
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.leftPicture
+{
+	float: left;
+	margin-left: -205px;
+	margin-bottom: 28px;
+	width: 180px;
+}
+
+.rightPicture
+{
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.mainText
+{
+	padding: 40px 50px 40px 225px;
+}
+
+.index .mainText
+{
+	padding-top: 0px;
+}
+
+.mainText p 
+{
+	margin-bottom: 14px;
+}
+
+section
+{
+	margin: -5px -60px -5px -40px;
+	padding: 10px 60px 10px 40px;
+}
+
+.section
+{
+	clear: both;
+}
+
+h3 a, h3 a:link, h3 a:visited, h3 a:hover, h3 a:active
+{
+	font-weight: normal;
+	
+}
+
+h2
+{
+	font-size: 15pt;
+	font-weight: bold;
+	color: #000066;
+	margin-top: 32px;
+	margin-bottom: 2px;
+}
+
+h2:first-child
+{
+	margin-top: 0;
+}
+
+h3
+{
+	font-size: 13pt;
+	font-weight: bold;
+	color: #000066;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+h4
+{
+	font-size: 13pt;
+	font-weight: bold;
+	color: #000066;
+	margin-top: 14px;
+}
+
+h5
+{
+	font-size: 12pt;
+	font-weight: bold;
+	color: #000066;
+	margin-top: 4px;
+}
+
+
+ul
+{
+	margin-left: 30px;
+}
+
+ul li
+{
+	margin-bottom: 14px;
+}
+
+ul.marker li
+{
+	list-style: none;
+}
+
+ul.marker li:before
+{
+	display: inline-block;
+	position: relative;
+	width: 0;
+	left: -18px;
+	content: "•";
+}
+
+.price
+{
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+.price p
+{
+    margin: 0;
+}
+
+.bigtext
+{
+	font-size: 18pt;
+	font-family: 'Calibri Light',Calibry, sans-serif;
+}
+
+footer
+{
+	border-top: 4px solid #0B60A1;
+	height: 100px;
+	position: relative;
+	color: white;
+	background: rgba(0, 141, 210, 0.75);
+}
+
+footer a, footer a:link, footer a:visited, footer a:active
+{
+	color: white;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.address
+{
+	float: right;
+	padding-top: 14px;
+	margin-right: 40px;
+	text-align: right;
+}
+
+.yashare-auto-init
+{
+	margin-top: 14px;
+	margin-left: 20px;
+}
+
+.collapsed
+{
+	display: none;
+	margin-bottom: 10px;
+}
+
+.expandButton
+{
+	cursor: pointer;
+	color: #000066;
+	text-decoration: underline;
+	text-align: right;
+}
+
+.priceLink
+{
+	text-align: right;
+}
+
+dl
+{
+	width: 400px;
+	overflow: hidden;
+	clear: both;
+}
+
+dl:before
+{
+	content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .";
+	white-space: nowrap;
+	width: 0;
+	float: left;
+}
+
+dt, dd
+{
+	display: inline;
+	background: #cfeaf6;
+}
+
+dt
+{
+	padding-right: 6px;
+}
+
+dd
+{
+	padding-left: 6px;
+	float: right;
+}
+
+hr
+{
+	border-color: #0b60a1;
+	clear: both;
+	margin-bottom: 14px;
+}
+
+.rightPicture
+{
+	float: right;
+	margin: 0 0 40px 20px;
+}
+
+.breeze
+{
+	/*font-style: italic;*/
+	/*font-weight: bold;*/
+	/*text-transform: uppercase;*/
+}
+
+a[name]
+{
+	display: block;
+	margin-top: -90px;
+	padding-bottom: 90px;
+}
+
+.person
+{
+	clear: both;
+}
+
+.newsDate
+{
+	font-style: italic;
+	color: #000066;
+	font-size: 80%;
+	margin-bottom: -10px;
+	margin-top: 10px;
+}
+
+.map
+{
+	width: 450px;
+	height: 450px;
+	background: #d0cfcf;
+	margin-bottom: 14px;
+}
+
+.small
+{
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+.signature
+{
+	font-style: italic;
+}
