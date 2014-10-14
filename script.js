@@ -8,6 +8,18 @@
 		windowScroll();
 		$(window).scroll(windowScroll);
 		$(".collapsed").each(crateCollapsed);
+		highlightSection();
+	}
+
+	function highlightSection()
+	{
+		var hash = window.location.hash;
+		if(hash)
+		{
+			var section = $("a[name='{0}']".fmt(hash.substr(1))).parent();
+			console.log(section);
+			section.addClass("highlighted");
+		}
 	}
 
 	function windowScroll()

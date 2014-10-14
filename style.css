@@ -118,8 +118,16 @@ nav span
 .imageMain
 {
 	width: 960px;
-	height: 649px;
-	background: /*#CFEAF6*/ url("img/imageMain.png") no-repeat;
+	height: 627px;
+	background: #eecc81 url("img/imageMain.jpg") no-repeat;
+}
+
+.imageMainShadow
+{
+	display: block;
+	width: 960px;
+	height: 22px;
+	background: url("img/imageMainShadow.png") repeat-x;
 }
 
 .content
@@ -194,6 +202,18 @@ section
 .section
 {
 	clear: both;
+}
+
+.section, .price
+{
+	padding: 0 45px 0 220px;
+	margin: 0 -45px 0 -220px;
+}
+
+.highlighted
+{
+	background: #f3fafd;
+	box-shadow: 0 0 0 5px #f3fafd;
 }
 
 h3 a, h3 a:link, h3 a:visited, h3 a:hover, h3 a:active
@@ -353,6 +373,11 @@ dt, dd
 	background: #cfeaf6;
 }
 
+.highlighted dt, .highlighted dd
+{
+	background: #f3fafd;
+}
+
 dt
 {
 	padding-right: 6px;
@@ -387,8 +412,8 @@ hr
 a[name]
 {
 	display: block;
-	margin-top: -90px;
-	padding-bottom: 90px;
+	margin-top: -150px;
+	padding-bottom: 150px;
 }
 
 .person
